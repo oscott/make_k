@@ -5,12 +5,19 @@ api = 2
 projects[drupal][version] = "7.9"
 
 ; Modules
-projects[audiofield][subdir] = "sites/all/modules/contrib/audiofield"
+projects[audiofield][subdir] = "sites/all/modules/sites/all/modules/contrib/audiofield/audiofield"
 projects[audiofield][version] = "1.0-beta3"
 
-projects[ctools][subdir] = "sites/all/modules/contrib/ctools"
+projects[ctools][subdir] = "sites/all/modules/sites/all/modules/contrib/ctools/ctools"
 projects[ctools][version] = "1.0-rc1"
 
-projects[views][subdir] = "sites/all/modules/contrib/views"
+projects[views][subdir] = "sites/all/modules/sites/all/modules/contrib/views/views"
 projects[views][version] = "3.0-rc3"
+
+; Themes
+projects[adaptivetheme][version] = "2.1"
+
+projects[andromeda][version] = "2.x-dev"
+
+projects[sky][version] = "2.2"
 
